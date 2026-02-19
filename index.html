@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LinkTree profissional - Bruno Henrique | Desenvolvedor Front-End | Portfolio, redes sociais e projetos">
+    <meta name="author" content="Bruno Henrique - IBrunooDev">
+    <title>Bruno Henrique | Desenvolvedor Front-End</title>
+
+    <!-- Google Fonts - Tipografia profissional -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="icon" href="src/img/ICON-SITE.jpg" type="image/jpeg">
+
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/animate-on-scroll.css">
+
+    <script src="src/js/animate-on-scroll.js" defer></script>
+    <script src="src/js/script.js" defer></script>
+    <script src="src/js/chuva.js" defer></script>
+</head>
+
+<body>
+    <div class="rain-container" aria-hidden="true"></div>
+    <div class="gradient-orb gradient-orb--1"></div>
+    <div class="gradient-orb gradient-orb--2"></div>
+    <div class="gradient-orb gradient-orb--3"></div>
+
+    <main class="container">
+        <header class="profile-section">
+            <div class="photo-wrapper" data-aos="fade-down" data-aos-duration="800">
+                <div class="photo-ring"></div>
+                <div class="photo-container">
+                    <img id="photo" src="src/img/GIF-1.gif" alt="Foto de perfil - Bruno Henrique">
+                </div>
+            </div>
+
+            <h1 class="profile-title" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
+                Bruno Henrique
+            </h1>
+            <p class="profile-subtitle" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
+                Desenvolvedor Front-End
+            </p>
+            <p class="profile-quote" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
+                "Work in silence, let success make noise."
+            </p>
+        </header>
+
+        <nav class="links-section">
+            <a href="https://ibrunoodev.netlify.app/" target="_blank" rel="noopener noreferrer" class="link-card" data-aos="zoom-in" data-aos-duration="600">
+                <span class="link-icon">💻</span>
+                <span class="link-text">Portfolio</span>
+                <span class="link-arrow">→</span>
+            </a>
+
+            <a href="https://www.instagram.com/IBrunooDev/" target="_blank" rel="noopener noreferrer" class="link-card" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="50">
+                <span class="link-icon">📸</span>
+                <span class="link-text">Instagram</span>
+                <span class="link-arrow">→</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/brunocarus/" target="_blank" rel="noopener noreferrer" class="link-card" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="100">
+                <span class="link-icon">💼</span>
+                <span class="link-text">LinkedIn</span>
+                <span class="link-arrow">→</span>
+            </a>
+
+            <a href="https://github.com/IBrunooDev" target="_blank" rel="noopener noreferrer" class="link-card" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="150">
+                <span class="link-icon">😼</span>
+                <span class="link-text">GitHub</span>
+                <span class="link-arrow">→</span>
+            </a>
+
+            <a href="https://open.spotify.com/user/31j4w6lwgv3mcnxr5bgosbkyjxzi?si=5587925f1bce43b9" target="_blank" rel="noopener noreferrer" class="link-card" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="200">
+                <span class="link-icon">🎶</span>
+                <span class="link-text">Spotify</span>
+                <span class="link-arrow">→</span>
+            </a>
+
+            <a href="https://www.twitch.tv/ibrunoodev" target="_blank" rel="noopener noreferrer" class="link-card" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="250">
+                <span class="link-icon">🚀</span>
+                <span class="link-text">Twitch</span>
+                <span class="link-arrow">→</span>
+            </a>
+
+            <a href="https://discord.gg/BMUdt97Zcb" target="_blank" rel="noopener noreferrer" class="link-card" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="300">
+                <span class="link-icon">🎧</span>
+                <span class="link-text">Discord - Servidor dos Programadores</span>
+                <span class="link-arrow">→</span>
+            </a>
+
+            <a href="https://onebitcode.com/javascript" target="_blank" rel="noopener noreferrer" class="link-card" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="350">
+                <span class="link-icon">📚</span>
+                <span class="link-text">Curso OneBitCode Full Stack</span>
+                <span class="link-arrow">→</span>
+            </a>
+        </nav>
+
+        <section class="music-section" data-aos="fade-up" data-aos-duration="800">
+            <div class="music-player">
+                <audio id="musica" src="src/audio/Tudo De Novo - Felipe Ret (ft Ale).m4a" loop></audio>
+                <div class="music-controls">
+                    <button type="button" class="btn-music btn-play" id="playButton" aria-label="Reproduzir música">
+                        <span>▶</span> Reproduzir
+                    </button>
+                    <button type="button" class="btn-music btn-pause" id="pauseButton" aria-label="Pausar música">
+                        <span>⏸</span> Pausar
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Desenvolvido com 💜 por <a href="https://github.com/IBrunooDev" target="_blank" rel="noopener noreferrer" class="footer-link">Bruno Henrique</a></p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 800, once: true, offset: 50 });
+    </script>
+</body>
+
+</html>
