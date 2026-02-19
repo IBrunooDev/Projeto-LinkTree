@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/LinkTree-Profissional-00d4ff?style=for-the-badge&logo=linktree&logoColor=white" alt="LinkTree Badge">
+  
 </p>
 
 <h1 align="center">✨ Bruno Henrique | LinkTree Profissional ✨</h1>
