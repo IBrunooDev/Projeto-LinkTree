@@ -10,9 +10,6 @@
 
 <p align="center">
   <a href="https://ibrunoodev.netlify.app/">🌐 Ver ao vivo</a> •
-  <a href="#-funcionalidades">Funcionalidades</a> •
-  <a href="#-tecnologias">Tecnologias</a> •
-  <a href="#-como-usar">Como usar</a>
 </p>
 
 ---
