@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://ibrunoodev.netlify.app/">🌐 Ver ao vivo</a> •
+  <a href="https://ibrunoodev.netlify.app/">🌐 Ver ao vivo</a>
 </p>
 
 ---
@@ -17,7 +17,8 @@
 ## 📸 Preview
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/22af6ae1-600d-4240-94de-cc0505f7a589" alt="Preview do LinkTree" width="800" style="border-radius: 12px;">
+  <img width="1350" height="596" alt="image" src="https://github.com/user-attachments/assets/dacc580c-f795-4216-99d2-5f77f52084e4" />
+
 </p>
 
 ---
@@ -95,7 +96,7 @@ LinkTree-main/
 
 ```bash
 # Clone o repositório
-git clone https://github.com/IBrunooDev/LinkTree.git
+git clone https://github.com/IBrunooDev/Projeto-LinkTree.git
 
 # Entre na pasta
 cd LinkTree
