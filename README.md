@@ -167,6 +167,11 @@ npx serve .
 
 ---
 
-<p align="center">
-  ⭐ Se este projeto te ajudou, considere dar uma estrela no repositório!
-</p>
+- ## 🔗 Links
+
+- [GitHub](https://github.com/IBrunooDev)
+- [LinkedIn](https://www.linkedin.com/in/brunocarus/?originalSubdomain=br)
+- [Instagram](https://www.instagram.com/ibrunoodev/)
+---
+
+Desenvolvido com ❤️ por [Bruno Henrique](https://github.com/IBrunooDev) 
