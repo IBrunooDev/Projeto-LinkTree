@@ -1,7 +1,3 @@
-<p align="center">
-  
-</p>
-
 <h1 align="center">✨ Bruno Henrique | LinkTree Profissional ✨</h1>
 
 <p align="center">
